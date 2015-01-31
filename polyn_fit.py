@@ -6,8 +6,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#Y = np.array([1,3,5,7,6,3,1]).T
-
 class polynomial_fit(object):	
 
 	def __init__(self,data,degree,alpha):
@@ -88,18 +86,7 @@ class polynomial_fit(object):
 	def get_matrix(self):
 		return X
 
-	# def plot_res(self):
 
-	# 	fit = X.dot(coefs).flatten()
-	# 	Fig1 = plt.figure
-	# 	plt.plot(fit,'r',label = 'Fitted Polynomial')
-	# 	plt.plot(self.data,'o', label = 'Actual Data')
-	# 	plt.xlabel('Data')
-	# 	plt.title('Fitted Polynomial')
-	# 	plt.legend(loc='lower center', shadow=True)
-	# 	plt.show()
-
-	# 	return Fig1
 
 
 
